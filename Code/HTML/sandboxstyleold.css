@@ -1,0 +1,51 @@
+header {
+    background-color: black;
+    background-size: cover;
+    height: 100px;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0px;
+    margin-top: 0;
+    width: 100%;
+    position: fixed;
+    opacity: 10%;
+}
+
+
+body {
+    top: 0px;
+    padding-top: 80px;
+    right: 0px;
+    scroll-behavior: smooth;
+}
+
+.topnav {
+    display: block;
+    position: fixed;
+    top: 40px;
+    height: 50px;
+    width: 600px;
+    right: 50px;
+    align-items: center;
+    background-image: url('navbackground.png');
+    background-size: cover;
+}
+
+.topnav ul {
+    list-style: none;
+    float: right;
+    padding-right: 50px;
+    display: flex;
+
+
+}
+
+.topnav li a {
+    color:#d2cfcf;
+    text-decoration: wavy;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    font-style: italic;
+    
+}
