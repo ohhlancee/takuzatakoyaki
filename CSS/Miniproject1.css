@@ -1,16 +1,16 @@
 @font-face {
     font-family: Comili;
-    src: url('Fonts/Comili-Book.otf');
+    src: url(Fonts/Comili-Book.otf);
 }
 
 @font-face {
     font-family: Bookworm;
-    src: url('Fonts/Bookworm_062308.ttf');
+    src: url(Fonts/Bookworm_062308.ttf);
 }
 
 @font-face {
     font-family: Japanese2020;
-    src: url('Fonts/JAPANESE_2020.otf');
+    src: url(Fonts/JAPANESE_2020.otf);
 }
 
 
