@@ -1,0 +1,31 @@
+@font-face {
+    font-family: Comili;
+    src: url('Fonts/Comili-Book.otf');
+}
+
+@font-face {
+    font-family: Bookworm;
+    src: url('Fonts/Bookworm_062308.ttf');
+}
+
+@font-face {
+    font-family: Japanese;
+    src: url('Fonts/JAPANESE_2020.otf');
+}
+
+
+.nav-item {
+    margin-inline: 20px;
+    font-size: 30px;
+    font-family: Japanese;
+}
+
+
+#NAVBRAND {
+    font-family: Japanese;
+}
+
+.brandlogo {
+    float: right;
+}
+
