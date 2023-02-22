@@ -1,0 +1,157 @@
+@font-face {
+    font-family: Comili;
+    src: url('../Fonts/Comili-Book.otf');
+}
+
+@font-face {
+    font-family: Bookworm;
+    src: url('../Fonts/Bookworm_062308.ttf');
+}
+
+@font-face {
+    font-family: Japanese2020;
+    src: url('../Fonts/JAPANESE_2020.otf');
+}
+
+@font-face {
+    font-family: SUPERPUNCH;
+    src: url('../Fonts/SUPER\ PUNCH.otf');
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+a:hover {
+    color: #E96479 !important;
+}
+
+.btn:hover {
+    color: white !important;
+    background-color: #a33c3c !important;
+
+}
+
+
+.nav-item {
+    margin-inline: 20px;
+    font-size: 30px;
+    font-family: JAPANESE2020;
+    color: white;
+}
+
+
+#NAVBRAND {
+    font-family: JAPANESE2020;
+    color: white;
+}
+
+
+#CTA {
+    margin-top: 150px;
+    height: 350px;
+    
+}
+
+#CTA h1 {
+    font-family: SUPERPUNCH;
+    font-size: 100px;
+}
+
+
+#CTA h2 {
+    font-family: SUPERPUNCH;
+    font-size: 100px;
+}
+
+#FirstCardHome {
+    flex-direction: row;
+    }
+
+#SecondCardHome {
+    flex-direction: row-reverse;
+    margin-top: 10rem;
+    }
+
+#CareersHomeIMG {
+
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+}
+
+
+#CareersHomeBODY {
+    margin-left: 20px;
+    margin-top: 5rem;
+}
+
+#WhoWeAreHomeIMG {
+
+    width: 65%;
+    height: 30vw;
+    object-fit: cover;
+}
+
+
+#WhoWeAreHomeBODY {
+    margin-left: 20px;
+    margin-top: 5rem;
+}
+
+.card-body {
+    font-size: max(1vw, 18px);
+}
+
+
+
+
+#firstcontainer {
+    
+    background-color: #ccb58e;
+    background-size:auto;
+}
+
+.CTAtext {
+    text-shadow: 1px 1px white;
+    margin-top: 20px;
+}
+
+.navbar {
+    background-color: #25393c;
+    color: white;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+#firstcontainer {
+    
+    background-color: #ccb58e;
+}
+
+#secondcontainer {
+    background-color: #dacaae;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#secondcontainer h5,p {
+    color: white;
+
+
+}
+
+
+.btn {
+    border: 2px solid;
+    border-color:#dacaae!important;
+}
+
+.card-title {
+    border: 2px solid;
+    border-color:#dacaae!important;
+    padding-left: 15px;
+}
+

@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Takuza</title>
-    <link rel="stylesheet" href="CSS/Miniproject1.css">
+    <link rel="stylesheet" href="CSS/Home.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <link rel="icon" href="Images/TAKUZA.png" type="image/icon type">
 
 </head>
 
 <body>
 
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg" id="navbar">
 
             <div class="container-fluid">
 
@@ -59,7 +60,7 @@
 
 
 
-        <div class="container-sm" id="logocontainer">
+        <div class="container-sm-fluid" id="firstcontainer">
 
             
 
@@ -79,10 +80,10 @@
 
                     </div>
 
-                    <div class="col-sm-6 text-start col-md col-lg m-auto" id="CTA">
+                    <div class="col-sm-6 text-start col-md col-lg mt-5" id="CTA">
 
-                        <h1> Sizzling. <br> Hot.</h1>
-                        <a class="btn btn-lg btn-dark" href="Locations.html" role="button"><h2>GRILL NOW</h2></a> 
+                        <h1 class="CTAtext" style="font-size: max(10vw, 100px);"> Sizzling. </h1> <h1 class="CTAtext" style="font-size: max(10vw, 100px);">Hot.</h1>
+                        <a class="btn btn-lg btn-dark text-sm-center text-md-start" href="Locations.html" role="button"><h2 style="font-size: max(5vw, 50px);">GRILL NOW</h2></a> 
 
                         
                     </div>
@@ -94,6 +95,149 @@
 
 
             
+
+        </div>
+
+
+        <div class="container-fluid-sm text-start" id="secondcontainer">
+
+
+
+
+            <div class="row justify-content-center">
+                
+            
+                    
+                <div class="col-sm-8">
+
+                    <div class="card mt-5 bg-dark border-0" id="FirstCardHome">
+
+                        <img src="Images/takomedium.jpeg" class="card-img-top m-auto" alt="takomedium" id="CareersHomeIMG">
+                        <div class="card-body" id ="CareersHomeBODY">
+                          <h5 class="card-title" style="font-size: max(3vw, 30px);">Careers</h5>
+                          <p class="card-text">Are you looking for excitement in life filled with good food? <br>
+                            we are always on the lookout for top talent. <br> <br> Interested and want to know more?</p>
+                          <a href="Careers.html" class="btn btn-dark">Apply Now</a>
+
+                        </div>
+                    </div>
+           
+                </div>
+
+
+                <div class="col-sm-8">
+
+                    <div class="card bg-dark border-0" id="SecondCardHome">
+
+                        <img src="Images/Cooking.jpeg" class="card-img-top m-auto" alt="takomedium" id="WhoWeAreHomeIMG">
+                        <div class="card-body" id ="WhoWeAreHomeBODY">
+                          <h5 class="card-title" style="font-size: max(3vw, 30px);">Who We Are</h5>
+                          <p class="card-text">Takuza Takoyaki's goal is to bring the authentic, and a bit expensive, Japanese dish, "Takoyaki" to the masses by making it crazy affordable.
+                            <br>
+                            <br>
+                            <a href="Careers.html" class="btn btn-dark">Learn More</a>
+
+                        </div>
+                    </div>
+           
+                </div>
+
+
+
+            </div>
+
+        </div>
+                
+
+        <div class="container-fluid text-start pt-5 mt-5" id="thirdcontainer">
+
+            <div class="row">
+
+                <div class="col-sm-2 justify-content-center m-auto" id="carouseltestimonialhomecontainer">
+
+                    <div id="carouseltestimonialhome" class="carousel slide">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="card bg-transparent border-0" id="FirstCardCarousel">
+
+                                <img src="Images/TAKUZA.png" class="card-img-top m-auto p-5" alt="takomedium" id="review1img">
+                                <div class="card-body" id ="review1body">
+                                  <h5 class="card-title text-center">Who We Are</h5>
+                                  <p class="card-text text-center">Takuza Takoyaki's goal is to bring the authentic, and a bit expensive, Japanese dish, "Takoyaki" to the masses by making it crazy affordable.
+                                    <br>
+                                    <br>
+                                    <a href="Careers.html" class="btn btn-dark">Learn More</a>
+        
+                                </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="..." class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="..." class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouseltestimonialhome" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouseltestimonialhome" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+
+                    <div id="carouseltestimonialhome" class="carousel bg-light">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                
+                                <div class="card bg-transparent border-0" id="FirstCardCarousel">
+
+                                    <img src="Images/TAKUZA.png" class="card-img-top m-auto p-5" alt="takomedium" id="review1img">
+                                    <div class="card-body" id ="review1body">
+                                      <h5 class="card-title text-center">Who We Are</h5>
+                                      <p class="card-text text-center">Takuza Takoyaki's goal is to bring the authentic, and a bit expensive, Japanese dish, "Takoyaki" to the masses by making it crazy affordable.
+                                        <br>
+                                        <br>
+                                        <a href="Careers.html" class="btn btn-dark">Learn More</a>
+            
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src=".." class="rounded img-fluid d-block w-25 h-25" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src=".." class="rounded img-fluid d-block w-25 h-25" alt="...">
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouseltestimonialhome" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouseltestimonialhome" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        
+                    </div>
+                
+
+                </div> 
+
+            </div>          
+  
+
+
+
+
+
+
+
+
+
 
         </div>
         
