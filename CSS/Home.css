@@ -144,7 +144,7 @@ a:hover {
     padding-bottom: 5%;
 }
 
-#secondcontainer h5,p {
+#secondcontainer h4,p {
     color: white;
 
 
@@ -213,4 +213,10 @@ a:hover {
 
 #PRODUCTTEXT {
     color: white;
+}
+
+
+
+.card-title h1 {
+    font-size: calc(5px + 2vw);
 }
