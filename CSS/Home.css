@@ -55,7 +55,6 @@ a:hover {
 
 #CTA h1 {
     font-family: SUPERPUNCH;
-    font-size: 100px;
 }
 
 
@@ -158,9 +157,17 @@ a:hover {
 }
 
 .card-title {
-    border-bottom: 2px solid;
     border-color:#dacaae!important;
     padding-left: 0px;
+    color: #ccb58e !important;
+}
+
+
+#productshowcaseimg {
+    max-height: 30vw;
+    min-height: 10rem;
+    min-width: 15rem;
+
 }
 
 
@@ -195,4 +202,15 @@ a:hover {
 
 .quote {
     font-size: 30px !important;
+}
+
+
+#productshowcase img {
+    max-height: 20vw;
+    max-width: 30vw;
+}
+
+
+#PRODUCTTEXT {
+    color: white;
 }
