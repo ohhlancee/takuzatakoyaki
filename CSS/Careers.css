@@ -32,6 +32,11 @@ a:hover {
 
 }
 
+.btn {
+    border: 2px solid;
+    border-color:#dacaae!important;
+}
+
 
 .nav-item {
     margin-inline: 15px;
@@ -74,7 +79,7 @@ footer {
     border-color:#dacaae!important;
     padding-left: 0px;
     color: #ccb58e !important;
-    font-size: calc(5px + 2vw);
+    font-size: calc (50px + 2vw);
 }
 
 #maincontainer {
@@ -92,7 +97,8 @@ footer {
 
 
 .card {
-    width: 30vw;
+    max-width: 100%;
+    min-width: 15vw;
     margin-bottom: 10px;
     color: white;
 }
