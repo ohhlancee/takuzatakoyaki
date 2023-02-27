@@ -31,6 +31,11 @@ a:hover {
     background-color: #a33c3c !important;
 }
 
+.btn {
+    border: 2px solid;
+    border-color:#dacaae!important;
+}
+
 .nav-item {
     margin-inline: 15px;
     font-size: 1vw;
@@ -160,10 +165,7 @@ a:hover {
 }
 
 
-.btn {
-    border: 2px solid;
-    border-color:#dacaae!important;
-}
+
 
 .card-title {
     border-color:#dacaae!important;
