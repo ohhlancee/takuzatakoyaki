@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Comili;
+    src: url('../Fonts/Comili-Book.otf');
+}
+
+@font-face {
+    font-family: Bookworm;
+    src: url('../Fonts/Bookworm_062308.ttf');
+}
+
+@font-face {
+    font-family: Japanese2020;
+    src: url('../Fonts/JAPANESE_2020.otf');
+}
+
+@font-face {
+    font-family: SUPERPUNCH;
+    src: url('../Fonts/SUPER\ PUNCH.otf');
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+a:hover {
+    color: #E96479 !important;
+}
+
+.btn:hover {
+    color: white !important;
+    background-color: #a33c3c !important;
+
+}
+
+
+.nav-item {
+    margin-inline: 15px;
+    font-size: 1vw;
+    font-family: Japanese2020;
+    color: white;
+}
+
+
+#NAVBRAND {
+    font-family: Japanese2020;
+    color: white;
+    font-size: 1.5vw;
+}
+
+.navbar {
+    background-color: #25393c;
+    color: white !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+
+#fourthcontainer {
+    
+    background-color: #25393c;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: 20px;
+}
+
+
+footer {
+    color: white;
+}
+
+.card-title {
+    border-color:#dacaae!important;
+    padding-left: 0px;
+    color: #ccb58e !important;
+    font-size: calc(5px + 2vw);
+}
+
+#maincontainer {
+    background-image: url('../Images/takomedium.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 20px;
+}
+
+
+#firstcontainer {
+    padding-left: 2vw;
+}
+
+
+.card {
+    width: 30vw;
+    margin-bottom: 10px;
+    color: white;
+}
+
+
+#left {
+    margin-top: 25%;
+}
+
+
+#rolesmain {
+    background-color: #a33c3c !important;
+    width: 100% !important;
+}

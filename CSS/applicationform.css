@@ -1,0 +1,61 @@
+label {
+    font-weight: bold;
+}
+
+::placeholder {
+    font-style: italic;
+}
+
+body {
+    background-color: #004080;
+}
+
+form {
+    background-color: #d34f4f;
+    padding: 0px;
+    text-align: left;
+    margin: auto;
+    display: table;
+}
+
+#logo {
+    height: 100px;
+    margin-top: 0px;
+    position: absolute;
+}
+
+#brandname {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    font-family: takuzalogofont;
+    
+}
+
+#tagline {
+    position: relative;
+    text-align: center;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: takuzalogofont;
+    src: url(JAPANESE_2020.ttf);
+  }
+
+
+input[type="submit"]:hover {
+    background-color: #d34f4f;
+    color: white;
+}
+
+.navbar-brand {
+    font-family: Japanese;
+    font-size: 20px;
+}
+
+
+
+
+
+

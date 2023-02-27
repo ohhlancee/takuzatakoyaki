@@ -1,0 +1,156 @@
+@font-face {
+    font-family: Comili;
+    src: url('../Fonts/Comili-Book.otf');
+}
+
+@font-face {
+    font-family: Bookworm;
+    src: url('../Fonts/Bookworm_062308.ttf');
+}
+
+@font-face {
+    font-family: Japanese2020;
+    src: url('../Fonts/JAPANESE_2020.otf');
+}
+
+@font-face {
+    font-family: SUPERPUNCH;
+    src: url('../Fonts/SUPER\ PUNCH.otf');
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+a:hover {
+    color: #E96479 !important;
+}
+
+.btn:hover {
+    color: white !important;
+    background-color: #a33c3c !important;
+
+}
+
+
+.nav-item {
+    margin-inline: 15px;
+    font-size: 1vw;
+    font-family: Japanese2020;
+    color: white;
+}
+
+
+#NAVBRAND {
+    font-family: Japanese2020;
+    color: white;
+    font-size: 1.5vw;
+}
+
+.navbar {
+    background-color: #25393c;
+    color: white !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+
+#fourthcontainer {
+    
+    background-color: #25393c;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: 20px;
+}
+
+
+footer {
+    color: white;
+}
+
+.card-title {
+    border-color:#dacaae!important;
+    padding-left: 0px;
+    color: #ccb58e !important;
+    font-size: calc(5px + 2vw);
+}
+
+
+
+
+#firstcontainer {
+    background-image: url('../Images/grillnowwallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    padding-top: 20px;
+}
+
+#subcontainer1 {
+    padding: 10px;
+}
+
+#subcontainer2 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+iframe {
+    margin: auto;
+    display: block;
+    padding: 20px;
+    border: 2px solid black;
+    min-width: 300px;
+    min-height: 500px;
+
+    max-width: 800px;
+    max-height: 500px;
+
+    width: 100%;
+
+}
+
+
+#FINDUS {
+    font-size: calc(30px + 2vw) !important;
+    color: #dacaae;
+    border: 1px solid;
+    min-width: 300px;
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+    text-shadow: 2px 2px black;
+
+    
+}
+
+#WHATWEOFFER {
+    font-size: calc(30px + 2vw) !important;
+    color: #dacaae;
+    border: 1px solid;
+    min-width: 300px;
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+    text-shadow: 2px 2px black;
+
+    
+}
+
+
+#menu {
+    margin: auto;
+    display: block;
+    padding: 20px;
+    min-width: 300px;
+    min-height: 1000px;
+    max-width: 800px;
+    max-height: 500px;
+    width: 100%;
+
+}
+

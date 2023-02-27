@@ -29,21 +29,29 @@ a:hover {
 .btn:hover {
     color: white !important;
     background-color: #a33c3c !important;
-
 }
 
-
 .nav-item {
-    margin-inline: 20px;
-    font-size: 30px;
-    font-family: JAPANESE2020;
+    margin-inline: 15px;
+    font-size: 1vw;
+    font-family: Japanese2020;
     color: white;
 }
 
 
 #NAVBRAND {
-    font-family: JAPANESE2020;
+    font-family: Japanese2020;
     color: white;
+    font-size: 1.5vw;
+}
+
+.navbar {
+    background-color: #25393c;
+    color: white !important;
+}
+
+.nav-link {
+    color: white !important;
 }
 
 
@@ -117,14 +125,7 @@ a:hover {
     margin-top: 20px;
 }
 
-.navbar {
-    background-color: #25393c;
-    color: white;
-}
 
-.nav-link {
-    color: white !important;
-}
 
 #firstcontainer {
     
@@ -142,6 +143,14 @@ a:hover {
     background-color: #ccb58e;
     padding-top: 5%;
     padding-bottom: 5%;
+}
+
+#fourthcontainer {
+    
+    background-color: #25393c;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: 20px;
 }
 
 #secondcontainer h4,p {
@@ -219,4 +228,8 @@ a:hover {
 
 .card-title h1 {
     font-size: calc(5px + 2vw);
+}
+
+#PRODUCTTEXT1, #PRODUCTTEXT2, #PRODUCTTEXT3 h1 {
+    font-size: calc(5px + 2vw) !important;
 }
